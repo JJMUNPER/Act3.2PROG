@@ -14,6 +14,8 @@ public class Main {
         System.out.println("1º Apellido: " + persona1.getPrimerApellido());
         System.out.println("2º Apellido: " + persona1.getSegundoApellido());
         persona1.calculoEdad();
+        persona1.nombreCompleto();
+        persona1.printPrimerIncial();
         System.out.println("Edad: " + persona1.getEdad());
 
 

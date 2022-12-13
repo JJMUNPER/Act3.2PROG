@@ -50,6 +50,18 @@ package org.Ejercicios.ejercicio2tema3;
 
         }
 
+        /** Metodo para que muestre nombre completo*/
+
+        public void nombreCompleto(){
+            System.out.println(nombre + " " + primerApellido + " " + segundoApellido);
+        }
+
+        /** Creamos un metodo nuevo, para que muestre las iniciales*/
+
+        public void printPrimerIncial(){
+            System.out.println(" " + this.nombre.charAt(0) + " " + this.primerApellido.charAt(0) + " " + this.segundoApellido.charAt(0));
+        }
+
         public String getNombre(){
             return nombre;
         }
